@@ -1,0 +1,72 @@
+h3 {
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 0 !important;
+}
+h6 {
+    font-weight: 300;
+    margin-bottom: 0 !important;
+}
+.jumbotron {
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0;
+}
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+.jumbotron h1 {
+    font-weight: 300;
+}  
+.jumbotron .container {
+    max-width: 40rem;
+}  
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}  
+footer p {
+    margin-bottom: .25rem;
+}
+.btn-purple { 
+    background-color: #6f42c1; 
+    color: whitesmoke;
+}
+.btn-purple:hover {
+    background-color: #523091;
+    color: whitesmoke;
+}  
+.btn-outline-purple {
+    border: 1px solid #6f42c1;
+}
+.btn-outline-purple:hover {
+    background-color: #6f42c1; 
+    color: whitesmoke;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.img-fluid {
+    max-height: 255px;
+    width: auto;
+}
+@media (max-width: 500px) {
+    .img-fluid {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: 6rem;
+        padding-bottom: 3rem;
+    }
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
